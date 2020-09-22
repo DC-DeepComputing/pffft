@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "848ea6c6_c59275cb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2020-09-22T03:12:02Z",
+      "side": 1,
+      "message": "All 64-bit ARM devices are required to support ASIMD. NEON is the 32-bit name, but would also be present on any ARMv8+ chip. Is this because the emulation of the ARM doesn\u0027t fully support NEON/ASIMD? I suppose that this project also might make use of some advanced extension from ARM, but I think that really shouldn\u0027t be called \"SIMD\", since that has a very specific meaning.",
+      "revId": "94eba54edf21ad52dbd10472a1217354008477ff",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
