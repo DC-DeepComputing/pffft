@@ -16,6 +16,24 @@
       "revId": "94eba54edf21ad52dbd10472a1217354008477ff",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a328599c_35c9e97e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2020-09-22T04:22:06Z",
+      "side": 1,
+      "message": "\u003e All 64-bit ARM devices are required to support ASIMD\n\nThanks. Didn\u0027t know that. I enabled the PFFFT_ENABLE_NEON flag in a follow-up change: aosp/1433393",
+      "parentUuid": "848ea6c6_c59275cb",
+      "revId": "94eba54edf21ad52dbd10472a1217354008477ff",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
