@@ -9,7 +9,15 @@ cc_library_static {
     host_supported: true,
     device_supported: false,
     visibility: ["//external/webrtc:__subpackages__"],
+    cflags: [
+        "-Wno-#pragma-messages",
+    ],
     arch: {
+        arm: {
+            neon: {
+                cflags: ["-DPFFFT_ENABLE_NEON"],
+            },
+        },
         arm64: {
             cflags: ["-DPFFFT_ENABLE_NEON"],
         },
