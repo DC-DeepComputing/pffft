@@ -7,9 +7,16 @@ cc_library_static {
     local_include_dirs: ["."],
     export_include_dirs: ["."],
     host_supported: true,
-    device_supported: false,
     visibility: ["//external/webrtc:__subpackages__"],
+    cflags: [
+        "-Wno-#pragma-messages",
+    ],
     arch: {
+        arm: {
+            neon: {
+                cflags: ["-DPFFFT_ENABLE_NEON"],
+            },
+        },
         arm64: {
             cflags: ["-DPFFFT_ENABLE_NEON"],
         },
