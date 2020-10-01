@@ -1,0 +1,9 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-ayeaye@system.gserviceaccount.com>
+Code-Review+1: Jorge Moreira Broche <jemoreira@google.com>
+Code-Review+2: Andy Hung <hunga@google.com>
+Submitted-by: Andy Hung <hunga@google.com>
+Submitted-at: Thu, 01 Oct 2020 00:59:55 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/external/pffft/+/1435111
+Project: platform/external/pffft
+Branch: refs/heads/master
