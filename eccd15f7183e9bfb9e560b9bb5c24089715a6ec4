@@ -48,6 +48,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdef79c6_286dd85f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1150374
+      },
+      "writtenOn": "2022-11-03T17:24:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b6247cd9_93f5c856",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 33
+      },
+      "revId": "eccd15f7183e9bfb9e560b9bb5c24089715a6ec4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "675cb580_1592ebc0",
@@ -84,6 +108,30 @@
       "writtenOn": "2022-11-02T00:08:43Z",
       "side": 1,
       "message": "Unfortunately, we are not allowed to modify 3rd-party code in place, like this. We either need to update the upstream code at https://github.com/marton78/pffft and re-fetch it, or create a local patch, like here: external/zlib/patches.\n\nHowever, since these changes are likely needed to avoid warnings, I would suggest modifying Android.bp to avoid them.",
+      "range": {
+        "startLine": 653,
+        "startChar": 0,
+        "endLine": 655,
+        "endChar": 13
+      },
+      "revId": "eccd15f7183e9bfb9e560b9bb5c24089715a6ec4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbcf61be_9ab23244",
+        "filename": "pffft.hpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 655,
+      "author": {
+        "id": 1150374
+      },
+      "writtenOn": "2022-11-03T17:24:58Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7b1ba679_9a3215ab",
       "range": {
         "startLine": 653,
         "startChar": 0,
